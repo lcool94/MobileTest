@@ -55,7 +55,7 @@ Mobile.delay(2)
 'Install app'
 Mobile.startApplication(userDir + '/App/Android/' + GlobalVariable.appName, false)
 
-Mobile.delay(120)
+Mobile.delay(GlobalVariable.delay_Term)
 
 Mobile.tap(findTestObject('Object Repository/Common/Login/bt_Agree_TermsConditions'), 0)
 
@@ -80,7 +80,7 @@ Mobile.takeScreenshot()
 'Tap button Sign In'
 Mobile.tap(findTestObject('Object Repository/Common/Login/bt_Submit'),0)
 
-Mobile.delay(120)
+Mobile.delay(GlobalVariable.delay_Term)
 
 Mobile.takeScreenshot()
 

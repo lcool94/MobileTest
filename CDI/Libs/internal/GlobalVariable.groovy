@@ -26,6 +26,11 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object delay_Term
+     
+    /**
+     * <p></p>
+     */
     public static Object deviceID
      
     /**
@@ -41,14 +46,15 @@ public class GlobalVariable {
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['userName' : 'cdi03dev', 'password' : '1256'])
-        allVariables.put('Android', allVariables['default'] + ['deviceID' : '', 'appName' : 'app-original-release.apk', 'appPackage' : 'jp.connected_design.connectedremocon'])
+        allVariables.put('default', ['userName' : 'cdi03dev', 'password' : '1256', 'delay_Term' : '10'])
+        allVariables.put('Android', allVariables['default'] + ['deviceID' : '', 'appName' : 'app-original-release_0.7.apk', 'appPackage' : 'jp.connected_design.connectedremocon'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
         userName = selectedVariables['userName']
         password = selectedVariables['password']
+        delay_Term = selectedVariables['delay_Term']
         deviceID = selectedVariables['deviceID']
         appName = selectedVariables['appName']
         appPackage = selectedVariables['appPackage']
