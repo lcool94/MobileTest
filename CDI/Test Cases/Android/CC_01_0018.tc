@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CC_01_0018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ceb19291-2ec2-4d6d-8e70-dc26ca75d38d</testCaseGuid>
+   <variable>
+      <defaultValue>'IH Agreement'</defaultValue>
+      <description></description>
+      <id>12efab4b-2ffd-42f8-b565-0fd537bbc3c1</id>
+      <masked>false</masked>
+      <name>txt_IHAgree</name>
+   </variable>
+   <variable>
+      <defaultValue>'If you haved checked, please click [I agree to the terms and conditions] to continue'</defaultValue>
+      <description></description>
+      <id>5c155976-ab68-4e18-b5cf-83d9c0f2b6a5</id>
+      <masked>false</masked>
+      <name>txt_If</name>
+   </variable>
+   <variable>
+      <defaultValue>'- Terms and Conditions of Use -'</defaultValue>
+      <description></description>
+      <id>95372bde-8d78-44da-92b4-899706757536</id>
+      <masked>false</masked>
+      <name>txt_Terms</name>
+   </variable>
+   <variable>
+      <defaultValue>'I agree to the terms and conditions'</defaultValue>
+      <description></description>
+      <id>818df030-87da-40a4-b770-34addced4098</id>
+      <masked>false</masked>
+      <name>txt_Iagree</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CC_01_0025</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7e7f05c-1e42-4c77-8b16-3e1371c8c5ab</testCaseGuid>
+   <variable>
+      <defaultValue>'Group Setting'</defaultValue>
+      <description></description>
+      <id>227b5469-341c-4891-99de-5223cfcca248</id>
+      <masked>false</masked>
+      <name>txt_GroupSetting</name>
+   </variable>
+</TestCaseEntity>

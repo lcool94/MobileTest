@@ -1,0 +1,182 @@
+[35m[Appium][39m Welcome to Appium v1.8.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 57380
+[35m[Appium][39m   chromeDriverPort: 57381
+[35m[Appium][39m   tmpDir: C:\Users\JamesCao\AppData\Local\Temp\\Katalon\Appium\Temp1562061144641
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:57380
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[MJSONWP][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m39 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[MJSONWP][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m33 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"D:\\CONG_VIEC\\GMO-Z RUNSYSTEM\\CDI\\CDI\\App\\Android\\app-original-release.apk","appWaitActivity":"*","appWaitPackage":"jp.connected_design.connectedremocon","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"5200ae7748d1a4b9","deviceName":"samsung SM-J730G (Android 8.1.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"5200ae7748d1a4b9"},"capabilities":{"desiredCapabilities":{"app":"D:\\CONG_VIEC\\GMO-Z RUNSYSTEM\\CDI\\CDI\\App\\Android\\app-original-release.apk","appWaitActivity":"*","appWaitPackage":"jp.connected_design.connectedremocon","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"5200ae7748d1a4b9","deviceName":"samsung SM-J730G (Android 8.1.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"5200ae7748d1a4b9"},"firstMatch":[{"platformName":"android"}]}}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.createSession() with args: [{"app":"D:\\CONG_VIEC\\GMO-Z RUNSYSTEM\\CDI\\CDI\\App\\Android\\app-original-release.apk","appWaitActivity":"*","appWaitPackage":"jp.connected_design.connectedremocon","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"5200ae7748d1a4b9","deviceName":"samsung SM-J730G (Android 8.1.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"5200ae7748d1a4b9"},null,{"desiredCapabilities":{"app":"D:\\CONG_VIEC\\GMO-Z RUNSYSTEM\\CDI\\CDI\\App\\Android\\app-original-release.apk","appWaitActivity":"*","appWaitPackage":"jp.connected_design.connectedremocon","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"5200ae7748d1a4b9","deviceName":"samsung SM-J730G (Android 8.1.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"5200ae7748d1a4b9"},"firstMatch":[{"platformName":"android"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1562061148554 (16:52:28 GMT+0700 (GMT+07:00))
+[35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[35m[Appium][39m The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","appWaitActivity","appWaitPackage","autoGrantPermissions","automationName","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[35m[Appium][39m Creating new AndroidUiautomator2Driver (v1.12.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   app: D:\CONG_VIEC\GMO-Z RUNSYSTEM\CDI\CDI\App\Android\app-original-release.apk
+[35m[Appium][39m   appWaitActivity: *
+[35m[Appium][39m   appWaitPackage: jp.connected_design.connectedremocon
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceId: 5200ae7748d1a4b9
+[35m[Appium][39m   deviceName: samsung SM-J730G (Android 8.1.0)
+[35m[Appium][39m   fullReset: false
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: true
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   udid: 5200ae7748d1a4b9
+[debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {"app":"D:\\CONG_VIEC\\GMO-...
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[35m[BaseDriver][39m Session created with session id: 94b0f91b-4008-47ed-b2e7-6931b5442a4a
+[35m[BaseDriver][39m Using local app 'D:\CONG_VIEC\GMO-Z RUNSYSTEM\CDI\CDI\App\Android\app-original-release.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[AndroidDriver][39m Getting Java version
+[35m[AndroidDriver][39m Java version is: 1.8.0_181
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\JamesCao\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/JamesCao/.katalon/tools/android_sdk/build-tools/28.0.3
+[35m[ADB][39m Using adb.exe from C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 5200ae7748d1a4b9
+[debug] [35m[ADB][39m Setting device id to 5200ae7748d1a4b9
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 27
+[debug] [35m[ADB][39m Device API level: 27
+[debug] [35m[AndroidDriver][39m Parsing package and activity from app manifest
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\JamesCao\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\JamesCao\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\JamesCao\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\JamesCao\.katalon\tools\android_sdk\build-tools\28.0.3\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\JamesCao\.katalon\tools\android_sdk'?
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\JamesCao\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'jp.connected_design.connectedremocon'
+[35m[ADB][39m Main activity name: 'jp.connected_design.connectedremocon.MainActivity'
+[debug] [35m[AndroidDriver][39m Parsed package and activity are: jp.connected_design.connectedremocon/jp.connected_design.connectedremocon.MainActivity
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 8.1.0
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell wm size'
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell wm density'
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': SM-J730G
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': samsung
+[debug] [35m[ADB][39m Device API level: 27
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell am force-stop io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Checking app cert for C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk
+[35m[ADB][39m Using apksigner.bat from C:\Users\JamesCao\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[debug] [35m[ADB][39m Starting 'C:\Users\JamesCao\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat' with args 'verify,--print-certs,C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk'
+[debug] [35m[ADB][39m 'C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' is not signed with debug cert.
+[debug] [35m[ADB][39m Zip-aligning 'C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk'
+[35m[ADB][39m Checking whether zipalign is present
+[35m[ADB][39m Using zipalign.exe from C:\Users\JamesCao\.katalon\tools\android_sdk\build-tools\28.0.3\zipalign.exe
+[debug] [35m[ADB][39m Signing 'C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' with default cert
+[debug] [35m[ADB][39m Starting 'C:\Users\JamesCao\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat' with args 'sign,--key,C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.pk8,--cert,C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.x509.pem,C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk'
+[debug] [35m[ADB][39m Checking app cert for C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [35m[ADB][39m Starting 'C:\Users\JamesCao\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat' with args 'verify,--print-certs,C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m 'C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is not signed with debug cert.
+[debug] [35m[ADB][39m Zip-aligning 'C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m Signing 'C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' with default cert
+[debug] [35m[ADB][39m Starting 'C:\Users\JamesCao\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat' with args 'sign,--key,C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.pk8,--cert,C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.x509.pem,C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m Uninstalling io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell pm list packages io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell am force-stop io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 uninstall io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m 'adb uninstall io.appium.uiautomator2.server' command output: Success
+[35m[ADB][39m io.appium.uiautomator2.server was successfully uninstalled
+[debug] [35m[ADB][39m Uninstalling io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell am force-stop io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 uninstall io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m 'adb uninstall io.appium.uiautomator2.server.test' command output: Success
+[35m[ADB][39m io.appium.uiautomator2.server.test was successfully uninstalled
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell pm list packages io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m App is not installed
+[debug] [35m[ADB][39m App 'C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' not installed. Installing
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 install C\:\\Users\\JamesCao\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v1.12.0.apk'
+[debug] [35m[ADB][39m Install command stdout: Success
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m App is not installed
+[debug] [35m[ADB][39m App 'C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' not installed. Installing
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 install C\:\\Users\\JamesCao\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m Install command stdout: Success
+[debug] [35m[UiAutomator2][39m Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell pm list instrumentation'
+[debug] [35m[UiAutomator2][39m Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 wait-for-device'
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell pm list packages io.appium.settings'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell ps'
+[debug] [35m[ADB][39m Device API level: 27
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Device API level: 27
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell appops set io.appium.settings android\:mock_location allow'
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'null' and country: 'null'
+[debug] [35m[Logcat][39m Starting logcat capture
+[debug] [35m[AndroidDriver][39m Pushing unlock helper app to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.unlock
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell pm list packages io.appium.unlock'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.unlock'
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell dumpsys package io.appium.unlock'
+[debug] [35m[ADB][39m The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to 8200
+[debug] [35m[ADB][39m Forwarding system: 8200 to device: 6790
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 forward tcp\:8200 tcp\:6790'
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m D:\CONG_VIEC\GMO-Z RUNSYSTEM\CDI\CDI\App\Android\app-original-release.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\JamesCao\AppData\Local\Temp\Katalon\Appium\Temp1562061144641\jp.connected_design.connectedremocon
+[debug] [35m[ADB][39m Extracting strings for language: default
+[35m[ADB][39m Successfully extracted 82 strings from 'D:\CONG_VIEC\GMO-Z RUNSYSTEM\CDI\CDI\App\Android\app-original-release.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 push C\:\\Users\\JamesCao\\AppData\\Local\\Temp\\Katalon\\Appium\\Temp1562061144641\\jp.connected_design.connectedremocon\\strings.json /data/local/tmp'
+[debug] [35m[ADB][39m Checking app cert for D:\CONG_VIEC\GMO-Z RUNSYSTEM\CDI\CDI\App\Android\app-original-release.apk
+[debug] [35m[ADB][39m Starting 'C:\Users\JamesCao\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat' with args 'verify,--print-certs,D:\CONG_VIEC\GMO-Z RUNSYSTEM\CDI\CDI\App\Android\app-original-release.apk'
+[debug] [35m[ADB][39m 'D:\CONG_VIEC\GMO-Z RUNSYSTEM\CDI\CDI\App\Android\app-original-release.apk' is not signed with debug cert.
+[debug] [35m[ADB][39m Zip-aligning 'D:\CONG_VIEC\GMO-Z RUNSYSTEM\CDI\CDI\App\Android\app-original-release.apk'
+[debug] [35m[ADB][39m Signing 'D:\CONG_VIEC\GMO-Z RUNSYSTEM\CDI\CDI\App\Android\app-original-release.apk' with default cert
+[debug] [35m[ADB][39m Starting 'C:\Users\JamesCao\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat' with args 'sign,--key,C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.pk8,--cert,C:\Users\JamesCao\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.x509.pem,D:\CONG_VIEC\GMO-Z RUNSYSTEM\CDI\CDI\App\Android\app-original-release.apk'
+[debug] [35m[ADB][39m Getting install status for jp.connected_design.connectedremocon
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell pm list packages jp.connected_design.connectedremocon'
+[debug] [35m[ADB][39m App is not installed
+[debug] [35m[ADB][39m App 'D:\CONG_VIEC\GMO-Z RUNSYSTEM\CDI\CDI\App\Android\app-original-release.apk' not installed. Installing
+[debug] [35m[ADB][39m Device API level: 27
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 install -g 'D:\\CONG_VIEC\\GMO-Z RUNSYSTEM\\CDI\\CDI\\App\\Android\\app-original-release.apk''
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 install -g 'D:\\CONG_VIEC\\GMO-Z RUNSYSTEM\\CDI\\CDI\\App\\Android\\app-original-release.apk''
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: Error: Trying to proxy a session command without session id
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 shell am force-stop jp.connected_design.connectedremocon'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8200 
+[debug] [35m[ADB][39m Running 'C:\Users\JamesCao\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5200ae7748d1a4b9 forward --remove tcp\:8200'
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1562061190333 (16:53:10 GMT+0700 (GMT+07:00))
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m41802 ms - 842[39m
+[35m[HTTP][39m [90m[39m
