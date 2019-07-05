@@ -26,43 +26,43 @@
    <testCaseLink>
       <guid>dbd37c60-d0d7-4813-bfab-28de87a4d622</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0003</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>660f3389-0a46-4eb5-8d27-2c38d4c2b851</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0004</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c7409263-07fd-427d-8b94-3804a11b5c47</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0007_0008_0009</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>28cc74c7-6db8-44b9-852f-2c1a1e035aae</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0010_0011</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c9b7df96-d4c7-48a0-8849-cc9e436e9d12</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0012_0013</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e0e0a2c0-5075-4b61-b6ca-a828ff98a9b6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0014</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bec69ded-b217-4c07-99eb-d4b4b13356bf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0015</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -74,7 +74,7 @@
    <testCaseLink>
       <guid>937a3b4a-0cfe-4fd0-9c63-486e7564f2a9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0016</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -98,7 +98,7 @@
    <testCaseLink>
       <guid>c2f94de7-f7aa-4d9d-a8aa-afd8e249b6ae</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0017</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -128,7 +128,7 @@
    <testCaseLink>
       <guid>ec6a2410-3b86-48cb-b6d1-3036b717faa8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0018</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -158,7 +158,7 @@
    <testCaseLink>
       <guid>d946a269-f127-4305-b2ed-b9b6cc522908</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0019</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -188,7 +188,7 @@
    <testCaseLink>
       <guid>a858c81e-23dc-478d-b66d-6446871cdeea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0020</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -254,7 +254,7 @@
    <testCaseLink>
       <guid>449f70eb-065d-4e5b-be9e-d967f31e2ddd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Android/CC_01_0021</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CC_01_0044</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9ccfe53-5144-48d8-87da-4fb7132e9a37</testCaseGuid>
+   <variable>
+      <defaultValue>'Add group'</defaultValue>
+      <description></description>
+      <id>f293e541-ba0e-4e90-a49f-3845dd943bb3</id>
+      <masked>false</masked>
+      <name>txt_Add_group</name>
+   </variable>
+   <variable>
+      <defaultValue>'Group name'</defaultValue>
+      <description></description>
+      <id>d94009e6-2ea2-4b81-b2e2-c614b0577ca6</id>
+      <masked>false</masked>
+      <name>txt_Group_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cancel'</defaultValue>
+      <description></description>
+      <id>0fac56d3-7731-4b4a-af4a-2257481a6b19</id>
+      <masked>false</masked>
+      <name>txt_Cancel</name>
+   </variable>
+   <variable>
+      <defaultValue>'Save'</defaultValue>
+      <description></description>
+      <id>1cce75c7-6ebc-49a5-9aff-f345f99cc884</id>
+      <masked>false</masked>
+      <name>txt_Save</name>
+   </variable>
+</TestCaseEntity>

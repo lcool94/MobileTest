@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CC_01_0030</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b2b1d2d-7dbf-4425-9c75-c3d779bab859</testCaseGuid>
+   <variable>
+      <defaultValue>'Save'</defaultValue>
+      <description></description>
+      <id>c056b69b-cade-4347-9047-0d941f08461a</id>
+      <masked>false</masked>
+      <name>txt_Save</name>
+   </variable>
+   <variable>
+      <defaultValue>'Map'</defaultValue>
+      <description></description>
+      <id>07eba431-b82f-48f8-86bb-55c1999e641f</id>
+      <masked>false</masked>
+      <name>txt_Map</name>
+   </variable>
+   <variable>
+      <defaultValue>'User Setting'</defaultValue>
+      <description></description>
+      <id>5c030f22-a37a-4182-a38e-bfe959a56566</id>
+      <masked>false</masked>
+      <name>txt_User_Setting</name>
+   </variable>
+</TestCaseEntity>

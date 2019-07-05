@@ -94,7 +94,7 @@ Mobile.tap(findTestObject('Object Repository/Android/User_Setting/tv_Location'),
 Mobile.delay(2)
 
 'CHECKPOINT: textview Map'
-Mobile.verifyMatch(Mobile.getText(findTestObject('Object Repository/Android/User_Setting/tv_Map'), 0), txt_Map, false)
+Mobile.verifyMatch(Mobile.getText(findTestObject('Android/Location/tv_Map'), 0), txt_Map, false)
 
 Mobile.delay(2)
 

@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'app-original-release_0.7.apk'</initValue>
+      <initValue>'app-original-release.apk'</initValue>
       <name>appName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

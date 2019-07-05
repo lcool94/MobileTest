@@ -47,7 +47,7 @@ public class GlobalVariable {
     static {
         def allVariables = [:]        
         allVariables.put('default', ['userName' : 'cdi03dev', 'password' : '1256', 'delay_Term' : '10'])
-        allVariables.put('Android', allVariables['default'] + ['deviceID' : '', 'appName' : 'app-original-release_0.7.apk', 'appPackage' : 'jp.connected_design.connectedremocon'])
+        allVariables.put('Android', allVariables['default'] + ['deviceID' : '', 'appName' : 'app-original-release.apk', 'appPackage' : 'jp.connected_design.connectedremocon'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
